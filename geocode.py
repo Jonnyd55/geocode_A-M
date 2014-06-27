@@ -2,7 +2,7 @@ import csv
 import requests
 
 '''
-This script will read a .csv file and geocode the address field using Texas A&M's geocoding service (FREE!!!).
+This script will read a .csv file and geocode the address using Texas A&M's geocoding service (FREE!!!).
 It requires the fantastic Requests package.
 You will need an API key from A&M, available here --> http://geoservices.tamu.edu/Services/Geocode/WebService/
 You are only allowed 2500 API hits. After that you need to sign up for a partnership, or purchase credits.
