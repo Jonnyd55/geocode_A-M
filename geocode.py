@@ -25,7 +25,7 @@ with open(read_file, 'rb') as address_data:
 		return stringified
 		
 	def geocode(add, city, state):
-		api_key = '614479f20af4428d8472fb03a5af2b17'
+		api_key = 'ENTER YOUR KEY HERE'
 		
 		starter_url = 'http://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_01.aspx?streetAddress='
 		
